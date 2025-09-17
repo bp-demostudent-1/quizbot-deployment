@@ -556,7 +556,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    web_rake (0.1.1)
+    web_rake (0.1.2)
       rails (>= 7.0.0)
     webmock (3.25.1)
       addressable (>= 2.8.0)
@@ -640,7 +640,7 @@ DEPENDENCIES
   tzinfo-data
   validate_url
   web-console
-  web_rake
+  web_rake (~> 0.1.2)
   webmock
 
 BUNDLED WITH
