@@ -7,6 +7,14 @@ GIT
       devise
       indefinite_article
 
+GIT
+  remote: https://github.com/firstdraft/web_rake.git
+  revision: d68a2ffadad00424c04fe23627dc920fa885da45
+  branch: bp-remove-regexes
+  specs:
+    web_rake (0.1.2)
+      rails (>= 7.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -556,8 +564,6 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    web_rake (0.1.2)
-      rails (>= 7.0.0)
     webmock (3.25.1)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
@@ -640,7 +646,7 @@ DEPENDENCIES
   tzinfo-data
   validate_url
   web-console
-  web_rake (~> 0.1.2)
+  web_rake!
   webmock
 
 BUNDLED WITH

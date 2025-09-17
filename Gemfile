@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'web_rake', '~> 0.1.2'
+gem 'web_rake', github: "firstdraft/web_rake", branch: "bp-remove-regexes"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
