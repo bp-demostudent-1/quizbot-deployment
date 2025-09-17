@@ -9,10 +9,10 @@ GIT
 
 GIT
   remote: https://github.com/firstdraft/web_rake.git
-  revision: d68a2ffadad00424c04fe23627dc920fa885da45
+  revision: 15b45da75a963dcbff123b5ab392329c6d557315
   branch: bp-remove-regexes
   specs:
-    web_rake (0.1.2)
+    web_rake (0.1.3)
       rails (>= 7.0.0)
 
 GEM
